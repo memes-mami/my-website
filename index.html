@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#" data-target="home">Home</a></li>
+                <li><a href="#" data-target="about">About Me</a></li>
+                <li><a href="#" data-target="internships">Internships</a></li>
+                <li><a href="#" data-target="contact">Contact</a></li>
+                <li><a href="#" data-target="projects">Projects</a></li>
+                <li><a href="#" data-target="interests">Interests</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to my personal website! Navigate through the sections to learn more about me.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Vishnu Teja, passionate in Machine Learning. I am currently pursuing Electronics and Communication Engineering at the National Institute Of Technology, Andhra Pradesh, with a CGPA of 8.19. I have participated in multiple technical events and am an active member of the volleyball sports team.</p>
+            <h3>Skills</h3>
+            <ul>
+                <li>Machine Learning</li>
+                <li>DBMS</li>
+                <li>Python</li>
+                <li>Kubernetes</li>
+                <li>Linux OS Operation</li>
+                <li>Competitive Programming</li>
+                <li>IoT</li>
+            </ul>
+        </section>
+
+        <section id="internships">
+            <h2>Internships</h2>
+            <h3>Cloud Computing Intern (06/2023 – 12/2023)</h3>
+            <p>Worked under Dr. Annappa and Mr. Naveen Kumar at NITK. Developed a Kubernetes deployment using Azure cloud services, solving migration issues.</p>
+            <h3>Research Intern (06/2022 – present)</h3>
+            <p>Engaged in research on battery technology under Dr. Sandeep at NITAP, focusing on theoretical studies of battery principles, materials, and technologies.</p>
+            <h3>Teaching Volunteering (08/2022 – 09/2022)</h3>
+            <p>Facilitated tutoring sessions at Happy Valley School, leveraging differentiated instruction techniques to enhance student comprehension and assignment completion.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3>Chat Bot for Students</h3>
+            <p>Developed a chatbot leveraging NLP and speech recognition to assist students with advanced support.</p>
+            <h3>Smart Irrigation System</h3>
+            <p>Built an automated irrigation system using sensors and Arduino, designed to optimize plant irrigation based on specific plant properties.</p>
+            <h3>Water Body Monitoring System</h3>
+            <p>Created a system using IoT, Arduino sensors, and Labview to monitor water body conditions and report anomalies.</p>
+            <h3>Implementation of Real-Time Clock</h3>
+            <p>Developed a real-time clock device with an alarm mechanism using the DS3231 RTC module.</p>
+        </section>
+
+        <section id="interests">
+            <h2>Interests</h2>
+            <p>I am interested in Machine Learning, Cyber Security, IoT, and Robotics. I also enjoy participating in cultural events.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Vishnu Teja. All rights reserved.</p>
+    </footer>
+
+    <div id="theme-toggle">
+        <label id="theme-label" for="theme-switch">Dark Theme</label>
+        <label class="switch">
+            <input type="checkbox" id="theme-switch">
+            <span class="slider round"></span>
+        </label>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
